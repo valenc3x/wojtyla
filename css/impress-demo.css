@@ -35,7 +35,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
+ul {
     list-style: none;
 }
 blockquote, q {
@@ -157,7 +157,6 @@ a:focus {
     font-size: 48px;
     line-height: 1.5;
     color: #393939;
-    font-size: 14em;
 }
 
 /*
@@ -685,11 +684,11 @@ right {
 }
 
 .past.red {
-    background: rgba(208,0,26,0.4);
+    background: rgba(208,0,26,0.6);
 }
 
 .past.blu {
-    background: rgba(35,136,219,0.4);
+    background: rgba(35,136,219,0.6);
 }
 
 .cad{
@@ -729,4 +728,51 @@ right {
 
 .big {
     font-size: 2.5em;
+}
+
+.bloque {
+    position: relative;
+    height: 500px;
+    background: url("../img/bloque.jpg") center no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+
+.materias {
+    padding: 10px;
+    color: black;
+    background: rgba(255,255,255,0.6);
+    position: absolute;
+    bottom: 19px;
+    right: 0;
+}
+
+.materias i {
+    font-size: 0.9em;
+}
+
+.objetivos {
+    font-size: 0.5em;
+}
+
+.happy-team {
+    margin-left: 30px;
+}
+
+.gastos {
+    height: 500px;
+    background: url("../img/gastos.jpg") center no-repeat;
+    background-size: contain;
+}
+
+.esquema {
+    height: 500px;
+    background: url("../img/esquema.png") center no-repeat;
+    background-size: contain;
+}
+
+.dad {
+    height: 500px;
+    background: url("../img/dad.png") center no-repeat;
+    background-size: contain;
 }
