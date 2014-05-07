@@ -27,6 +27,8 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -146,7 +148,7 @@ a:focus {
     height: 700px;
     padding: 40px;
     margin: 20px auto;
-
+    background: rgba(255,255,255,0.8);
     -webkit-box-sizing: border-box;
     -moz-box-sizing:    border-box;
     -ms-box-sizing:     border-box;
@@ -703,7 +705,7 @@ right {
     float: right;
 }
 .title {
-    font-size: 2em;
+    font-size: 4em;
     padding: 50px 20px;
 }
 
@@ -757,6 +759,8 @@ right {
 
 .happy-team {
     margin-left: 30px;
+    height: 500px;
+    background: url("../img/happy-team.png") center no-repeat;
 }
 
 .gastos {
@@ -776,3 +780,14 @@ right {
     background: url("../img/dad.png") center no-repeat;
     background-size: contain;
 }
+
+.team {
+    height: 500px;
+    background: url("../img/team.png") center no-repeat;
+    background-size: contain;
+}
+
+.img {
+    z-index: -7;
+}
+
