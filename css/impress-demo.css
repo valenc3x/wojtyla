@@ -143,6 +143,7 @@ a:focus {
 .step {
     position: relative;
     width: 900px;
+    height: 700px;
     padding: 40px;
     margin: 20px auto;
 
@@ -155,6 +156,8 @@ a:focus {
     font-family: 'Dosis';
     font-size: 48px;
     line-height: 1.5;
+    color: #393939;
+    font-size: 14em;
 }
 
 /*
@@ -198,7 +201,7 @@ a:focus {
     color: rgb(102, 102, 102);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
-    font-family: 'Dosis', Arial, sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
@@ -689,7 +692,6 @@ right {
     background: rgba(35,136,219,0.4);
 }
 
-.title,
 .cad{
     float: right;
 }
@@ -700,4 +702,31 @@ right {
 
 .wojtyla {
     float: right;
+}
+.title {
+    font-size: 2em;
+    padding: 50px 20px;
+}
+
+.subtitle {
+    margin: 50px;
+}
+
+.logos div {
+    display: inline-block;
+}
+
+.image-text {
+    font-size: 0.5em;
+    position: absolute;
+    margin: -50px 0;
+    padding: 0;
+}
+
+.right {
+    float: right;
+}
+
+.big {
+    font-size: 2.5em;
 }
