@@ -791,3 +791,7 @@ right {
     z-index: -7;
 }
 
+
+.txt-right {
+    text-align: right;
+}
